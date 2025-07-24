@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>מתחם ההייטק - גיוס וניהול לתפקידי QA | AllJobs</title>
+    <title>מתחם ההייטק - גיוס לתפקידי QA | AllJobs</title>
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -59,7 +60,7 @@
     <header class="bg-white">
         <div class="container mx-auto px-6 py-12 text-center">
             <h1 class="text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
-                מתחם ההייטק - גיוס וניהול לתפקידי QA
+                מתחם ההייטק - גיוס לתפקידי QA
             </h1>
             <h2 class="mt-4 text-lg md:text-xl text-indigo-600 font-semibold">
                 כלים ומשאבים למעסיקים בתחום בדיקות תוכנה — גיוס וניהול טאלנטים איכותיים ל-QA
@@ -162,7 +163,7 @@
         </section>
 
         <!-- AllJobs Services Section -->
-        <section class="bg-indigo-50 rounded-2xl py-16">
+        <section class="bg-indigo-50 rounded-2xl py-16 mb-20">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl font-bold text-gray-900">שירותי AllJobs לגיוס מומחי QA</h2>
@@ -208,6 +209,69 @@
                         </li>
                      </ul>
                 </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-10 border-b-2 border-gray-300 pb-4">
+                שאלות נפוצות
+            </h2>
+            <div class="max-w-3xl mx-auto space-y-6">
+                <details class="bg-white p-4 rounded-lg shadow-sm group">
+                    <summary class="font-semibold cursor-pointer list-none flex justify-between items-center">
+                        מה ההבדל בין בודק ידני למפתח אוטומציה?
+                        <span class="group-open:rotate-180 transition-transform duration-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </span>
+                    </summary>
+                    <p class="text-gray-600 mt-4">
+                        בודק ידני (Manual QA) מבצע בדיקות על ידי אינטראקציה ישירה עם התוכנה, בדומה למשתמש קצה, כדי למצוא באגים. מפתח אוטומציה (Automation Developer) כותב קוד וסקריפטים שמבצעים בדיקות באופן אוטומטי, מה שמאפשר הרצה חוזרת, מהירה ויעילה של תהליכי בדיקה מורכבים.
+                    </p>
+                </details>
+                <details class="bg-white p-4 rounded-lg shadow-sm group">
+                    <summary class="font-semibold cursor-pointer list-none flex justify-between items-center">
+                        אילו כישורים רכים הכי חשובים לאיש QA?
+                        <span class="group-open:rotate-180 transition-transform duration-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </span>
+                    </summary>
+                    <p class="text-gray-600 mt-4">
+                        מעבר לידע טכני, הכישורים החשובים ביותר הם: ירידה לפרטים, חשיבה ביקורתית, יכולת תקשורת מעולה (במיוחד עם מפתחים), סקרנות ופתרון בעיות. איש QA טוב הוא כזה שיודע לשאול את השאלות הנכונות ולחשוב "מחוץ לקופסה".
+                    </p>
+                </details>
+                <details class="bg-white p-4 rounded-lg shadow-sm group">
+                    <summary class="font-semibold cursor-pointer list-none flex justify-between items-center">
+                        איך בונים תהליך גיוס יעיל לתפקידי QA?
+                        <span class="group-open:rotate-180 transition-transform duration-300">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </span>
+                    </summary>
+                    <p class="text-gray-600 mt-4">
+                        תהליך גיוס טוב מתחיל בהגדרת דרישות מדויקת. הוא צריך לכלול שלב של סינון קורות חיים, ראיון טלפוני קצר, ראיון מקצועי הכולל שאלות תיאורטיות, מטלה מעשית (מבחן בית או בזמן אמת) ולבסוף ראיון אישיותי לבדיקת התאמה לצוות ולתרבות הארגונית.
+                    </p>
+                </details>
+            </div>
+        </section>
+
+        <!-- Related Hubs Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-10">
+                עולמות תוכן נוספים
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+                <a href="#" class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg hover:text-indigo-600 transition-all duration-300">
+                    <h4 class="font-bold text-xl">פיתוח תוכנה</h4>
+                </a>
+                <a href="#" class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg hover:text-indigo-600 transition-all duration-300">
+                    <h4 class="font-bold text-xl">DevOps</h4>
+                </a>
+                <a href="#" class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg hover:text-indigo-600 transition-all duration-300">
+                    <h4 class="font-bold text-xl">ניהול מוצר</h4>
+                </a>
+                <a href="#" class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg hover:text-indigo-600 transition-all duration-300">
+                    <h4 class="font-bold text-xl">Data Science</h4>
+                </a>
             </div>
         </section>
 
